@@ -1,0 +1,355 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 200;
+    background-color: black;
+    opacity: 90%;
+}
+
+.entire-site-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.nav-bar-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 7%;
+    text-decoration: none;
+}
+
+.navigation-fixed-menu {
+background-color: black;
+color: white;
+display: flex;
+justify-content: flex-end;
+text-decoration: none;
+position: fixed;
+min-width: 100%;
+z-index: 1;
+box-sizing: border-box;
+}
+
+.navigation-fixed-menu a{
+    text-decoration: none;
+}
+
+.navigation-fixed-menu :visited{
+    background-color: black;
+    color: white;
+    display: block;
+    text-decoration: none;
+    position: fixed;
+    min-width: 100%;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+
+
+
+
+header.first-header {
+color:white;
+height: 100vh;
+background-position: center;
+background-image: url(../images/skyline-black-and-white.png);
+}
+
+.dropdown-position-container {
+    position: fixed;
+    left: 10px;
+    top: 5px;
+}
+
+.dropdown-container {
+    position: relative;
+    display: inline-flex;
+    float: right;
+    color: white
+}
+
+.dropdown-button {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.dropdown-container:hover .dropdown-list {display: block;}
+
+.dropdown:hover .dropdown-button {background-color: #3e8e41;}
+
+.dropdown-list {
+        display: none;
+        position: absolute;
+        left: 0px;
+        top: 45px;
+        color: black;
+        background-color: #f1f1f1;
+        min-width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 2;
+}
+
+.dropdown-list a:hover {
+    color: black;
+    background-color: #ddd;}
+
+.dropdown-list a {
+    color: black; 
+    background-color:rgb(129, 129, 243);
+    text-decoration: none;
+    display: flex;
+  }
+
+
+div.center-page-header {
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+div.main-title {
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+    padding: 0px;
+    font-weight: lighter;
+   ;
+}
+
+div.header-subsection {
+    font-size: 60px;
+    position: absolute;
+    left: 51%;
+    bottom: 8%;
+    color: white;
+    font-weight: lighter;
+}
+
+.image-and-text-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.scroll-text {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+    font-size: 20px;
+    font-weight: 150;
+} 
+
+.about-me-header {
+    padding: 25px;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 800px;
+    float: left;
+}
+
+.left-hand {
+    max-width: 50%;
+    max-height: 70%;
+   margin-left: 49px;
+
+}
+
+.left-hand-type {
+    float: right;
+    border-radius: 5%;
+    min-width: 60%;
+    max-width: 80%;
+}
+
+
+.about-me-container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    align-items: flex-start;
+    position: relative;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.about-me-text {
+    text-align: left;
+    min-width: 70%;
+    max-width:97%;
+    margin: 0 auto;
+    padding: 10px 10px 30px 10px;
+    line-height: 70px;
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+}
+
+.options-images-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+    max-width: 1400px;
+    font-weight: 200;
+}
+
+.options-images-container a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+}
+
+.options-images-container a:hover {
+    text-decoration: none;
+    color: rgb(129, 129, 243);
+    font-weight: 200;
+}
+
+.photography-container h3{
+    text-align: center;
+}
+
+.seashell-images-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tree-container {
+    display: flex;
+    justify-content: center;
+}
+
+.photography-container {
+    display: inline;
+    max-width: 1400px;
+    margin: auto;
+    align-items: center;
+}
+
+.photo-header {
+    font-weight: 200;
+    color: white;
+}
+
+.digital-art-container {
+    display: flex;
+    border-radius: 5%;
+    max-width: 1400px;
+    margin: auto;
+    
+}
+
+.digital-art-header {
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.montreal-skylines{
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    margin-top: 0;
+}
+
+
+.hrtag {
+    color: white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.animation-container {
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {    
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.social-media-footer {
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 50px;
+    position: relative;
+}
+
+.insta-icon-container {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+
+.mail-icon-container {
+    position: absolute;
+    bottom: 9px;
+    right: 90px;
+}
+
+.contact-us-outer-container {
+    background-image: url(../images/leaves-bw.png);
+    color: black;
+    height: 100vh;
+    transform: rotate(180);
+    display: flex;
+    max-width: 600px;
+    margin: auto;
+  }
+
+.contact-us-inner-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.back-button-container a{
+    color: black;
+    text-decoration: none;
+}
+
+.back-button-container a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.back-button-container a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  font-size: 16px;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 16px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
